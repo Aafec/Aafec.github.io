@@ -1,5 +1,6 @@
  <!DOCTYPE html>
  <html lang="en">
+ 
  <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,63 +9,65 @@
  </head>
  
  <style type="text/css">
- #first-section{
+
+    #first-section {
         color: red;
         background-color:red;
- }
+        text-align: justify;
+}
  
- #second-section{
-        background-color: blue;    
- }
-
- #thier{
-     color: white;
-     background-color:green;
- }
- ul {list-style-type:none;
-    margin:2px;
-    padding:0;
-    overflow:hidden;
+    #second-section {
+        background-color: blue;
+        color: purple;    
 }
 
-li {
-    float: left;
+    #thier {
+        color: white;
+        background-color:green
+}
+    ul {
+        list-style-type: none;
+        margin: 0%;
+        padding: 0%;
+        overflow:hidden;
+}        
+
+    ul { 
+        position: fixed;
+        width: 100px; 
+        top: 0%;
+}   
+
+    li {
+         float: left;
 }
 
-li a   {
-      display: block;
-      padding: 15px 30px;
-      background-color: green;
-      color: white;
-      text-align: center;
-      text-decoration:none;
+ li a   {
+            display: block;
+            padding: 15px 30px;
+            background-color: green;
+            color: violet;
+            text-align: center;
+            text-decoration: none;
 }
 
 li a:hover{
-    background: yellow;
+    background: yellowgreen;
 }
 
 .active {
-    background-color: black;
+    background-color:whitesmoke(0, 0, 0);
 }
 
-li {
-    float: left;
-    border-right:5px solid blueviolet;
-} 
-ul {
-   position: fixed;
-   width: 100%; 
-   top: 0%;
-}   
+ 
 
 
 * Dropdown Button */
 .dropbtn {
-    background-color: pink;
-    color: blue;
-    padding: 10px 20px;
-    font-size: 20px;
+    background-color: green;
+    color: blueviolet;
+    padding: 25px 20px;
+    font-size: 25px;
     border: none;
     cursor: pointer;
 }
@@ -72,25 +75,25 @@ ul {
 
 /* The container <div> - needed to position the dropdown content */
     .dropdown {
-    position: relative;
+    position: fixed;
     display: inline-block;
     box-shadow: 0px 4px 7px 0px;
-    
+    width: 10px;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: red;
-    min-width: 180px;
+    background-color: green;
+    min-width: 100px;
     box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.2);
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
-    padding: 8px 25px;
+    color: blue;
+    padding: 15px 30px;
     text-decoration: none;
     display: block;
 }
@@ -106,67 +109,53 @@ ul {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: #8e3e5f;
-    padding: 8px 10px;
+    padding: 10px 15px;
 }
 
-    body {
-        margin: 0%;
-        padding: 0%;
-    }
+ body {
+    margin: 0%;
+    padding: 0%;
+}
 
-  </style>
- 
- 
- <body>
-         
-        <div class="dropdown">
-                <button class="dropbtn">MENU</MENU></button>
-                <div class="dropdown-content">
-                  <a href="index.html">Home</a>
-                  <a href="News.html">Al-Quran</a>
-                  <a href="Contact.html">BBC</a>
-                  <a href="link.html">Support</a>
-                </div>
-              </div>
-                    
-    
-
-
-                <li style="float:right"><a class="active" href="#about">About</a></li>
-                  </ul>
-     
-    <div id="first-section">
-    <h1 style="color:green; font-weight: bolder; text-decoration: underline; text-align: right"> In the name of Allah the Beneficent, the Merciful.</h1>
-        <hr>
+  </style> 
+<body>
+ <div class="dropdown">
+  <button class="dropbtn">MENU</button>
+    <div class="dropdown-content">
+     <a href="News.html">Commentery</a>
+      <a href="Contact.html">News</a>
+        <a href="link.html">Links</a>
+    </div>
+ </div>
+<li style="float:right"><a class="active" href="About.html">About</a></li>
+ <div id="first-section">
+  <h1 style="color:green; font-weight: bolder; text-decoration: underline; text-align: center">In the name of Allah the Beneficent,the Merciful.</h1>
+ <hr>
 <marquee><h2 style="color: aqua">THE SUPRIM ISLAMIC COUNCIL</h2></marquee>
-    <h3 style="color:blue; text-decoration: underline"> CSS is cool with HTML macorps</h3>
+ <h3 style="color:rgb(0, 255, 149); text-decoration: underline"> CSS is cool with HTML macorps, Jasseh's Code Camp i really inspiry.</h3>
+  <br>
+   <p style="color: yellow; text-decoration: underline"> <b>i am learning how to code at Jcc</b></p>
     <br>
-    <p style="color: yellow; text-decoration: underline"> <b>i am learning how to code at Jcc</b></p>
-    <br>
-    <h2 style="color: gray">was really a nice session with <b>Mr Jasseh.</b></h2>
-
-    <div id="second-section">
-    <img src="pic.png" alt="" height="160px" style="border-radius: 50%">
-    <img src="insp.jpg" alt="" width="160px" style="border-radius: 30%">
+     <h2 style="color: gray">was really a nice session with <b>Mr Jasseh.</b></h2>
+<div id="second-section">
+ <img src="pic.png" alt="" height="160px" style="border-radius: 50%">
+  <img src="insp.jpg" alt="" width="160px" style="border-radius: 30%">
     <img src="cool.jpg" alt=""width="160px" style="border-radius: 25%">
-    <img src="arv.jpg" alt=""width="160px" style="border-radius: 85%">
-    <img src="jtob.jpg" alt=""width="150x" style="border-radius: 45%">
-    <img src="gc.jpg" alt=""width="160px" style="border-radius: 50%">
-    <img src="ins.png" alt=""width="150px" style="border-radius: 50%">
-    
+      <img src="arv.jpg" alt=""width="160px" style="border-radius: 85%">
+        <img src="jtob.jpg" alt=""width="150x" style="border-radius: 45%">
+          <img src="gc.jpg" alt=""width="160px" style="border-radius: 50%">
+            <img src="ins.png" alt=""width="200px" style="border-radius: 50%">
+            
     <div id="thier">
-    <h3 style="text-decoration: underline; color: brown">This man is <b>one</b> of the inspiring figures to me.</h3>
-<p style="color: blue"> <strong>all about <b>trial</b> and error</p>
-<h2 style="color: white">with CSS we gat to <b>try</b> even C++</h2>
-<b style="color: blue"> This days its is very hot in the countryside, the temprature can be up to 40 plus.
-<br>
-   <p style="color: white"> what <b>about </b> west <b>coast</b> region</style> 
-  
-    <p><b><a href="link.html" target="_blank">This is a link</a></b></p>
-
-    <hr
-    
-    <p><a href="#top" align="left">Back to top</a></p> 
-</div>
+     <h3 style="text-decoration: underline; color: brown">This man is <b>one</b> of the inspiring figures, He have a special creadict on the stories of the prophets.</h3>
+      <p style="color: blue"> <strong>Codding is all about <b>trial</b> and error. One should not give it up hence it take courage to build up the dreams, remember "garbage in is garbage out" the more you practice is the more you learn. so let this be part of you in other to succeed.</p>
+       <h2 style="color: white">with CSS we gat to <b>try</b> even C++</h2>
+        <b style="color: blue"> This days its is very hot in the countryside, the temprature can be up to 40 plus.
+         <br>
+          <p style="color: white"> what <b>about </b> west <b>coast</b> region</style> 
+           <p><b><a href="link.html" target="_blank">This is a link</a></b></p>
+             <hr>
+              <p><a href="#top"text-align="left">Back to top</a></p> 
+    </div>
 </body>
  </html>
