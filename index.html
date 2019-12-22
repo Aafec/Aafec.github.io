@@ -11,19 +11,49 @@
  <style type="text/css">
 
     #first-section {
-        color: red;
-        background-color:red;
+        color: yellowgreen;
         text-align: justify;
+        background-image: url(ins.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-attachment: fixed;
 }
+
  
     #second-section {
-        background-color: blue;
-        color: purple;    
+        color: yellow;
+        background-image: url(insp.jpg);
+        background-repeat: repeat;
+        background-position: bottom;
+        background-attachment: fixed;    
 }
 
     #thier {
-        color: white;
-        background-color:green
+        color:  #8e3e5f;
+        background-image: url(pic.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;         
+}
+
+    .put {
+            font-size: 35px;
+            text-align: justify;
+            font-family: Georgia, 'Times New Roman', Times, serif, Arial ;
+}
+
+    .blue {
+        background-image: url(jtob.jpg);
+        background-position: center;
+        text-indent: 30px;
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif, Arial ;
+        color: red;
+        
+}
+    .link {
+        text-decoration: none;
+        text-align: center;
 }
     ul {
         list-style-type: none;
@@ -32,10 +62,19 @@
         overflow:hidden;
 }        
 
+ul:hover {
+           /* transform: scale(1, 2);
+            transform: rotate(45deg);*/
+            transform: translate(20px, 20px);
+          }
+
+
     ul { 
         position: fixed;
         width: 100px; 
         top: 0%;
+        border-radius: 25px;
+        transition: 1s ease-in-out;
 }   
 
     li {
@@ -52,17 +91,14 @@
 }
 
 li a:hover{
-    background: yellowgreen;
+    background: yellowgreen;        
 }
 
 .active {
     background-color:whitesmoke(0, 0, 0);
 }
 
- 
-
-
-* Dropdown Button */
+ * Dropdown Button */
 .dropbtn {
     background-color: green;
     color: blueviolet;
@@ -71,7 +107,6 @@ li a:hover{
     border: none;
     cursor: pointer;
 }
-
 
 /* The container <div> - needed to position the dropdown content */
     .dropdown {
@@ -88,6 +123,8 @@ li a:hover{
     background-color: green;
     min-width: 100px;
     box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.2);
+    transition: 1s ease-in-out;
+    transform: translate(20px, 20px);    
 }
 
 /* Links inside the dropdown */
@@ -96,6 +133,8 @@ li a:hover{
     padding: 15px 30px;
     text-decoration: none;
     display: block;
+    border-radius: 25px;
+    transition: 1s ease-in-out;
 }
 
 /* Change color of dropdown links on hover */
@@ -110,15 +149,36 @@ li a:hover{
 .dropdown:hover .dropbtn {
     background-color: #8e3e5f;
     padding: 10px 15px;
+    transform: translate(20px, 20px);
+    border-radius: 25px;
+    transition: 2s ease-in-out;  
 }
+ 
+ /*.container {
+     width: 95%;
+     margin: 0 auto;
+}*/
 
- body {
-    margin: 0%;
+body {
+    margin: 0 auto;
     padding: 0%;
+    width: 100%;
+    min-width: 50%;
+    max-width: 100%;
 }
 
+.h1 {
+    color: green;
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
   </style> 
-<body>
+
+<body id="top">
  <div class="dropdown">
   <button class="dropbtn">MENU</button>
     <div class="dropdown-content">
@@ -128,34 +188,49 @@ li a:hover{
     </div>
  </div>
 <li style="float:right"><a class="active" href="About.html">About</a></li>
- <div id="first-section">
-  <h1 style="color:green; font-weight: bolder; text-decoration: underline; text-align: center">In the name of Allah the Beneficent,the Merciful.</h1>
+
+<div id="first-section">
+  <h1 class="h1">In the name of Allah the Beneficent,the Merciful.</h1>
  <hr>
-<marquee><h2 style="color: aqua">THE SUPRIM ISLAMIC COUNCIL</h2></marquee>
- <h3 style="color:rgb(0, 255, 149); text-decoration: underline"> CSS is cool with HTML macorps, Jasseh's Code Camp i really inspiry.</h3>
-  <br>
-   <p style="color: yellow; text-decoration: underline"> <b>i am learning how to code at Jcc</b></p>
-    <br>
-     <h2 style="color: gray">was really a nice session with <b>Mr Jasseh.</b></h2>
+ <marquee><h2 style="color: aqua">THE SUPRIM ISLAMIC COUNCIL</h2></marquee>
+  <p style="color: #8e3e5f; text-align: center; font-size: 50px">PRAIS BE TO ALLAH</p> 
+  <P style="color: black; text-align: center; text-decoration: underline;text-decoration-style: double;text-decoration-color: olivedrab; font-size: 75px">THE QUESTIONING</P>
+  <p class="put; blue" >People are going to be question on the Day of Judgement and the questioning will be different, Some people will be question in detail and some people will not be question at all (may Allah Subahanahu wa TaAllah make us among those not to be question). These are the best and are the once who reach to the pinnacles in Faith Jihad and Righteousness, they are not going to be question they will enter into Paradise without going through the questioning. All what will happend to them is that, they will be presented with their books of deeds but they will not be interrogated about the details in it, and these are <b>70,000 (seventy thousand) from this Ummah who will enter into Jannah without questioning.</b> Then after that <em> the more a person is questioned the more difficult and dengerous it is.</em> Rasulullah (SAW) saids; <strong> "Whoever is interrogated, will be punished,</strong> because if you are interrogated that means there is something wrong. The questioning, the questions that will be asked are everything but there are some Ayat (verses) and Hadeeths that specified a few questions.</p>
+  
+  <p class="put">The most Question is: Al Kufr (disbelief). Why didn't you belive? Anyone who rejected the Truth this is the first question that will be asked, Allah Subahana wa Ta'ala says: And it shall be said to them, were are the Gods you worshipped? (26:92-93) then they will thrown head long into fire they and those straying in evil. There are four questions, very important question questions that every one will be asked about. Rasulullah (SAW) says: in the Hadeeth narrated by At Tirmidihi, <u>"Your feet will not move from their spot on the Day of Judgement until you are asked four Questions</u></p>
+  <p class="put"><b><em><u>THE FIRST QUESTION</b></em></u><br> <b>Your life, how did you use it?</b> These years you spent in Dunyaa what did you do in them? Time, this Question is about time. This is the value of time and how did you use it? So this is why, i mean when we say that time is money, its even more worthy than that because time is your life! and whenever every second passing-by, it's been taking away part of you. The first Question will be about your life, how did you use your time in this Dunyaa? <i>do you use it to serve ALLAH SWT or do you use it to disobey him?</i></p>
+  <p class="put"><em><u><b>THE SECOND QUESTION</b></u></em><br> How did you use the knowledge that you acquired? Did you practice it or did you just learned for the sake of learning and showing off, what have you done with it?<strong>So knowledge is an evidence against us if we do not use it. Also it is a grate sin not to practice the knowledge that you know. The Ayaa about the belivers Allah subuhanahu wataala said;<u>"O you who belive why do you say what you don't do? it is a grate sin in the Eyes of Allah (SWT) to say what you dont do."</u></strong> So we have to practice what we preach.</p> 
+  <p class="put"><b><em><u>THE THIRD QUESTION</b></em></u><br> Your wealth how did earned it and how he spent(disposed) it? and we are going to be ask two questions about wealth not one, <em>how did you gaine it and how did you spend it (ligal or illagal)?</em> We will be question about the source of every single dalasi that you gain and every single dalasi that you spend, why did you spent it this way? <strong>Therefore SUBHANNA LAA suffering in destution and porvrty for your whole life is better than suffering in tha Day of judgement for one Dallasi that was made from an illegal source.</strong><em> Is not worthy, you will rather live a life of porvety through out 
+   the sixty or seventy years in this Dunyaa than the suffering for one Dollar from Haram or spent in Haram).</em> To be question in the day of judgement is the most sevier thing. Rasullah (SAW) said "if you are questioned you will be punished" therefore we should be God concisouss of our Rizk (sustenance). How we gaine it and how we spend it). This shows one of the reasons why the Poor enter into Jannah before the Rich, even thus their could be a Rich man with better in the level and rank than a poor person, here we talking about the timing of entering in to Jannah. Rasullah (SAW) said <b>"The Poor of the Muhajireen will enter in to Jannah five hundred years befor the Rich man reach.</b> Why, because, and this is mension in a hadeeth <em>"They will go to the Gates of Jannah and they whant to enter into Jannah and the Angels will ask them, how did you get here? Were 'nt you held accountable? They came early. These poor man of Muhajirin, they will say What are we going to be accountable for, we don't have any wealth and we were carrying our swords in the sake of Allah, we lived our lives in Jihad, we din't any money. What will Allah (SWT) ask us about?"</em> Therefore wealth is questioning inthe Day of Judgement but also, there could be some of the rich like AbdRahman Ibn Auf who would have a high rank than many of the poor but Money is a very dengerous tool, it can be use to open doors of Jannah for you In fact Fisbilillah but can also take you to the extream other opposite and that is in the lower ranks of Hell fire. So it is a very dangerous tool and can take you to one of the two extreams, either a very high rank of rightousness or a very low rank of evil. So we have to give money the attention it derserves. We souldn't just have the attention of making money but we should have a lot of attention given to how to make and how we spend it. This are very two things, very important because two questions are in relation to the wealth and then filally.</p>
+  <p class="put"><b><em><u>THE FORTH QUESTION</b></em></u> <br> Your body, how did you use it? Allah gave you this strength, you are not the inventor of your power (This is an abjection to the theory that says energy cannot be cerated or distroy). Allah gives it to you as a trust. Did you put your body to rest and not use it eventhough it was full of energy, optimize it to the extream and limit like the Sahaba RA(may Allah blessings be on them) did because it is a blessing from Allah Subhanahu Watall.</p>
+  <p class="put">Also another Question the luxury of this life? Allah (SWT) says:"Then sall you be question that Day about the joy you endulged in."(102:8) Every blessing that Allah Subahana wa Ta'ala has given you in this Dunya, you will be asked on the Day of judgement about it. Where you greatful? Some of them for example Mujahid says:"You will be asked about every pleasure you had in this World, every moment of happiness and every moment of pleasure." Ibn Abbas says:"part of the pleasure of this World is a Healthy body, and you will be asked about it." We also know in the Hadeeth, Rasulullah(SAW) says:"There are two lessings  Allah (SAW) has given people, and they are loosing becauseof them; that is spare time and health." These are two blessings from Allah SWT we need to use them ffor the sake of Allah SWT otherwise they are going to be against you on the Day of Judgement.</p>
+
+ 
+  <p class="put">It is proven inthe Qur'aan and Sunnah that when a person dies, he will be called to account for every major and minor action he did in this world, wheather it was good or bad. He will be reworded for his good and punished for his bad deeds. The first stage of that reckoning is in the grave. In the grave the first thing a person will be asked will be: Who was your loaed? What is your religion? Who is this man who was sent among you?-as was narrated in the hadeeth of al-Baraa'ibn Aazib (may Allah be please with him), which was narrated by Abu Dawood in his Sunan (4753) and classed as saheeh by al-Albaani in Saheeh Abi Dawood, 2979.<br></p>
+  <p class="put">Then on the day of Resurrection he will be brought to account for every major and minor action, even though he was already been brought to account for that in the grave. The first thing for which he will be brought to account for then will be his prayer.</p><br>
+  <p class="put">
+  <p class="put">(Narrated by Abu Dawood, 864; classed as saheeh by al-Albaani in Saheeh Abi Dawood, 770):   It was narrated from Ibn Mas'ood (may the please and blessings of Allah be with him) said: "The son of Adam will not be dismissed from before his Lord on the Day of Resurrection until he has been question about five things: <br>his youth and how he used it? 
+    
+  <p style="color: yellow; text-decoration: underline"> <b>learning how to code at Jcc</b></p>
+    </div>
 <div id="second-section">
- <img src="pic.png" alt="" height="160px" style="border-radius: 50%">
-  <img src="insp.jpg" alt="" width="160px" style="border-radius: 30%">
-    <img src="cool.jpg" alt=""width="160px" style="border-radius: 25%">
-      <img src="arv.jpg" alt=""width="160px" style="border-radius: 85%">
-        <img src="jtob.jpg" alt=""width="150x" style="border-radius: 45%">
-          <img src="gc.jpg" alt=""width="160px" style="border-radius: 50%">
-            <img src="ins.png" alt=""width="200px" style="border-radius: 50%">
-            
-    <div id="thier">
-     <h3 style="text-decoration: underline; color: brown">This man is <b>one</b> of the inspiring figures, He have a special creadict on the stories of the prophets.</h3>
-      <p style="color: blue"> <strong>Codding is all about <b>trial</b> and error. One should not give it up hence it take courage to build up the dreams, remember "garbage in is garbage out" the more you practice is the more you learn. so let this be part of you in other to succeed.</p>
-       <h2 style="color: white">with CSS we gat to <b>try</b> even C++</h2>
-        <b style="color: blue"> This days its is very hot in the countryside, the temprature can be up to 40 plus.
-         <br>
-          <p style="color: white"> what <b>about </b> west <b>coast</b> region</style> 
-           <p><b><a href="link.html" target="_blank">This is a link</a></b></p>
-             <hr>
-              <p><a href="#top"text-align="left">Back to top</a></p> 
+ <img src="pic.png" alt="super" height="160px" style="border-radius: 50%">
+ <img src="cool.jpg" alt="hometoo"width="160px" style="border-radius: 50%">
+ <img src="arv.jpg" alt="Home"width="160px" style="border-radius: 85%">
+ <img src="jtob.jpg" alt="Koritek"width="150x" style="border-radius: 45%">
+ <img src="ins.png" alt="Sheikh"width="250px" style="border-radius: 30%">
+</div>            
+ 
+<div id="thier">
+  <p class="put">Covenants and promises<br> You will be asked about your covernants and also your promises, the most important covernant is the covenant of Iman. There is a covernant between us and Allah SWT, if you dont realise that you have signed a covernant with Allah, well you did. You have your signature when you say that you are a Muslim, that means you are signing on a contract between you and Allah SWT; When you say that you are a Mu'min (believer), this is not an empty word but means that you are giving your consent to abiding with a certain set of rules and Laws, and that is what Allah SWT has told us to do and refraining from what Allah (SWT) has made forbidden on us. Allah SWT says:"And fulfill every engagement for every engagement will be inquired into on the Day of Judgement."</p>
+  <p class="put">Questions about Sight, Hearing and Mind <br> Especially these 3 (three) are very important because the sight and the hearing is where we input all of the Data into our mind. If you imagine your mind as the central processing unit of the body, how does it gain information and where does it get it from? It gets it from the eyes and the ears, by hearing and seeing. Therefore Allah SWT will question us specifically about these three because this is where all of the knowledge and information is garthered (eyes and ears) and then processed in the Mind. Therefore Allah SWT will asked us how did you use your eyes? Did you use it to read the Qur'an or did u use it to see what is forbidden? How did u use your eyea? Did u use it to listen to the remenberance of Allah SWT or you use it to the forbidden? How did u use your Mine? did u invest it for the sake of Allah SWT or did u use it for the sake of serving yourself in this Dunya and neglating Akira(life after death) because our Mine is what control us, and the way we use our Mine is the way our boby will function and that is what we will be held accountable for on the Day of Judgement. Therefore we need to make sure that we are using this three in the SUKUR of Allah SWT. Allah SWT says: "he is the one who cerated for you sight, hearing and Mind so that you maight be greatful" (may allah make us among the greatful). For every act of seeing, hearing or of feeling in the heart will be enquired in to on the Day of Judgement.</p>
+  <p class="put">Finally <br> For the believer who believer in Allah SWT, The first question that will be saked is Sallat. Rasulullah (SAW) says:<u>"The first thing you will be asked on the day of Judgement is Sallat." al Nisai.</u> if it was completed it would be written down as completed. If there is a deficency in your sallat then Allah SWT will tell the angels to look at your book of records if you have any perform any voluntary prayers to complete the defrcency, this is what the naafil do, this is role of the Sunnah or naafil prayers. The five Daily prayers are mandetory and the have to be complete, and definetly here and there their is going to some deficency because of our shortcomings, how can that be completed? Its completed by the voluntary prayers that you offer. So the voluntary prayers patch any laps, deficences that exists in your five manditory prayers. Then Rasulullah SAW says:"and thesame wil be done to all of the other deeds, to your fasting if it is not Allah SWT will said look at his Farida if it is completed it will be written as complete if it is not Allah SWT will say look at his voluntary fasting." <br> 
+       It was also narrated from Abu Hurayrah in a similar variation that the prophet SAW said:<i>"The first thing among their deeds for which the person will be brought to account on the Day of Resurrection will be prayer."</i> Our Lord will say to his angels, although He knows best,<em>"Look at My slave's prayer, is it complete or lacking?</em> If it is complete, it will be recorded as complete, but if it is lacking, He will say:<b>"Look and see whether my slave did any voluntary (naafil) prayers".</b> If he had done voluntary prayers, He will say:"complete the obligatory prayers of My slave from his voluntary prayers". Then the rest of his deeds will be examined in a similar manner.</p> 
+
+  <h2 style="color: purple">with CSS we gat to <b>try</b> even C++</h2>
+  <p class="link"><b><a href="link.html" target="_blank">Hadeeths</a></b></p>
+<hr>
+<p><a href="#top"text-align="left">Back to top</a></p> 
     </div>
 </body>
  </html>

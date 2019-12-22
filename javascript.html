@@ -1,0 +1,38 @@
+<html> 
+
+    <head>
+
+        <title>javascript</title>
+    </head>
+
+    <body>
+        
+        <p id="text">Hello world!</p>
+
+        <button id="myBotton">Change text</button>
+
+        <script type="text/javascript">
+        
+            document.getElementById("myBotton").onclick = function() {
+            
+            document.getElementById("text").innerHTML = "Asalamu alsikum"; 
+            
+            }
+        
+        </script>
+   
+   <div id="tweetDiv"></div>
+<script type="text/javascript">
+   var tweetString =  "";  
+   var tweets = ["Hi everyone!", "I love cornflakes!", "Night night :)", "Sweet dreams!"];  
+
+  for (var i = 0; i < tweets.length; i++) {
+      alert(tweets[i]);
+      tweetString = tweetString + "<p>" + tweets[i] + "</p>";    
+  }
+  
+  document.getElementById("tweetDiv").innerHTML = tweetString;
+   </script>
+    </body>
+
+    </html>
